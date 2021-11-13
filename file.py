@@ -369,19 +369,192 @@ s = 'example.txt'
 
 # 28 - masala
 
-f = 'file28.txt'
-file = open('file25.txt','r')
-x = file.read().split()
-file.close()
-for i in range(len(x)) :
-    x[i] = int(x[i])
-print(x)
-satr = ''
-y  = []
-for i in range(2,len(x)-2) :
-    y.append((x[i-1]+x[i]+x[i+1])//3)
-for i in y :
-    satr += str(i)+' '
-file = open(f,'w')
-file.write(satr)
-file.close()
+# f = 'file28.txt'
+# file = open('file25.txt','r')
+# x = file.read().split()
+# file.close()
+# for i in range(len(x)) :
+#     x[i] = int(x[i])
+# print(x)
+# satr = ''
+# y  = []
+# for i in range(2,len(x)-2) :
+#     y.append((x[i-1]+x[i]+x[i+1])//3)
+# for i in y :
+#     satr += str(i)+' '
+# file = open(f,'w')
+# file.write(satr)
+# file.close()
+
+# 29 - masala
+
+# f = 'file29.txt'
+# file = open('file25.txt','r')
+# x = file.read().split()
+# file.close()
+# print(x)
+# for i in range(len(x)) :
+#     x[i] = int(x[i])
+# del x[5:]
+# print(x)
+# satr = ''
+# for i in x :
+#     satr += str(i)+' '
+# file = open(f,'w')
+# file.write(satr)
+# file.close()
+
+# 30 - masala
+
+# f = 'file30.text'
+# x = list(range(0,20,2))
+# print(x)
+# satr = ''
+# for i in x :
+#     satr += str(i)+' '
+# file = open(f,'w')
+# file.write(satr)
+# file.close()
+#
+# file = open('file30.text','r')
+# y = file.read().split()
+# file.close()
+# for i in range(len(y)) :
+#     y[i] = int(y[i])
+# del y[len(y)//2 :]
+# print(y)
+# satr1 = ' '
+# for i in y :
+#     satr1 += str(i)+' '
+# file = open('file30_1.txt','w')
+# file.write(satr1)
+# file.close()
+
+# 31 - masala 29- bn bir xil yolda ishlanadi
+
+# 32 - masala
+
+# f = 'file32.text'
+# x = list(range(0,20,2))
+# print(x)
+# satr = ''
+# for i in x :
+#     satr += str(i)+' '
+# file = open(f,'w')
+# file.write(satr)
+# file.close()
+#
+# file = open('file32.text','r')
+# y = file.read().split()
+# file.close()
+# for i in range(len(y)) :
+#     y[i] = int(y[i])
+# del y[ :len(y)//2]
+# print(y)
+# satr1 = ' '
+# for i in y :
+#     satr1 += str(i)+' '
+# file = open('file32_1.txt','w')
+# file.write(satr1)
+# file.close()
+
+# 33 - masala
+
+# y = []
+# file = open('file25.txt','r')
+# x = file.read().split()
+# file.close()
+# print(x)
+# for i in range(len(x)):
+#     x[i] = int(x[i])
+# for i in range(0,len(x),2) :
+#     y.append(x[i])
+# print(y)
+# satr = ''
+# for i in y :
+#     satr += str(i)+' '
+# file = open('file25.txt','w')
+# file.write(satr)
+# file.close()
+
+# 34 - masala
+
+# f = 'file34.txt'
+# x = [2,3,4,-5,6,-6,8,-23,13,-18,-14]
+# satr = ''
+# for i in x :
+#     satr += str(i)+' '
+# file = open(f,'w')
+# file.write(satr)
+# file.close()
+# file = open('file34.txt','r')
+# y = file.read().split()
+# file.close()
+# for i in range(len(y)) :
+#     y[i] = int(y[i])
+# m = []
+# for i in range(len(y)):
+#     if  y[i] > 0 :
+#         m.append(y[i])
+# print(m)
+# satr1 = ''
+# for i in m :
+#     satr1 += str(i)+' '
+# file = open('file34.txt','w')
+# file.write(satr1)
+# file.close()
+
+# 35 - masala
+
+# x = list(range(1,51,2))
+# y =[]
+# for i in range(len(x)) :
+#     y.append(x[i])
+#     y.append(0)
+# satr = ' '
+# for i in y :
+#     satr += str(i)+' '
+# file = open('file35.txt','w')
+# file.write(satr)
+# file.close()
+
+# 36 - masala
+
+# file = open('file25.txt','r')
+# x = file.read().split()
+# file.close()
+# x +=x
+# satr = ''
+# for i in x :
+#     satr += i+' '
+# file = open('file36.txt','w')
+# file.write(satr)
+# file.close()
+
+# 37 - masala
+
+# file = open('file25.txt','r')
+# x = file.read().split()
+# file.close()
+# x.reverse()
+# x +=x
+# satr = ''
+# for i in x :
+#     satr += i+' '
+# file = open('file36.txt','w')
+# file.write(satr)
+# file.close()
+
+# 38 - masala
+
+# x = list(range(15))
+# y = []
+# for i in range(1,len(x),2) :
+#     y.append(x[i])
+#     y.append(x[i])
+# satr = ''
+# for i in y :
+#     satr += str(i)+' '
+# file = open('file38.txt','w')
+# file.write(satr)
+# file.close()
